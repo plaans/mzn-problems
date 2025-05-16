@@ -1,0 +1,9 @@
+% From Dan Moore: Brainpower Bible
+% Delta 2 (6x6)
+n = 6;
+max_letter = D;
+row_upper = [0,B,D,D,0,C];
+row_lower = [B,0,0,B,C,D];
+col_left  = [A,D,C,0,B,D];
+col_right = [0,0,B,B,0,0];
+diagonal = false;

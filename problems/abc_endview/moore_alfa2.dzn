@@ -1,0 +1,9 @@
+% From Dan Moore: Brainpower Bible
+% Alfa 2 (5x5)
+n = 5;
+max_letter = C;
+row_upper = [B,0,0,C,B];
+row_lower = [0,A,B,A,C];
+col_left  = [0,0,0,A,B];
+col_right = [A,B,0,0,0];
+diagonal = false;

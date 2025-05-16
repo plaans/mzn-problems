@@ -1,0 +1,10 @@
+% Problem instance from
+% http://www.funwithpuzzles.com/2009/12/abcd-end-view-a1.html
+% This is a 4x4 with 1 blank
+n = 4;
+max_letter = C;
+row_upper = [0,0,A,0];
+row_lower = [0,B,0,0];
+col_left  = [0,C,C,0];
+col_right = [0,0,B,0];
+diagonal = false;

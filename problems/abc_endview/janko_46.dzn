@@ -1,0 +1,11 @@
+% From http://www.janko.at/Raetsel/AbcEndView/046.a.htm
+% ABC End View Nr. 46
+% (7x7)
+% (Difficulty 8, "schwer")
+n = 7;
+max_letter = E;
+row_upper = [0,0,D,C,0,0,C];
+row_lower = [0,0,E,D,D,C,0];
+col_left  = [0,E,C,C,E,B,0];
+col_right = [0,0,B,0,0,C,0];
+diagonal = false;

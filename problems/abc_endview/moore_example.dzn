@@ -1,0 +1,10 @@
+% From Dan Moore: Brainpower Bible
+% (introduction example)
+% Note: This is a 5x5 grid with 2 blanks
+n = 5;
+max_letter = C;
+row_upper = [C,C,A,C,0];
+row_lower = [B,B,0,A,0];
+col_left  = [0,A,0,0,0];
+col_right = [0,B,A,B,0];
+diagonal = false;

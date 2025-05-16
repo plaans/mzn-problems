@@ -1,0 +1,11 @@
+% From http://www.janko.at/Raetsel/AbcEndView/209.a.htm
+% ABC End View Nr. 209
+% (7x7)
+% (Difficulty 8, "schwer")
+n = 7;
+max_letter = E;
+row_upper = [A,0,B,0,0,C,B];
+row_lower = [0,A,0,B,B,D,0];
+col_left  = [A,C,A,0,E,0,E];
+col_right = [0,D,0,C,0,E,0];
+diagonal = false;

@@ -1,0 +1,9 @@
+% From http://www.cross-plus-a.com/puzzles.htm#EasyAsABC
+% (6x6)
+n = 6;
+max_letter = E;
+row_upper = [A,0,0,E,0,0];
+row_lower = [0,B,C,0,0,A];
+col_left  = [0,0,A,D,0,0];
+col_right = [E,0,B,E,0,0];
+diagonal = false;

@@ -1,0 +1,12 @@
+% http://www.janko.at/Raetsel/AbcEndView/168.a.htm
+% ABC End View Nr. 168
+% (7x7)
+% (Difficulty 8, "schwer")
+% NOTE: This has the diagonal requirement.
+n = 7;
+max_letter = F;
+row_upper = [A,0,C,E,F,A,0];
+row_lower = [0,D,0,C,0,0,E];
+col_left  = [A,0,0,C,E,D,0];
+col_right = [0,C,B,0,0,E,0];
+diagonal = true;

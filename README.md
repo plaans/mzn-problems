@@ -1,6 +1,6 @@
 # mzn-problems
 
-mzn-problems is a collection of MiniZinc problems and a script to a minizinc solver. All the problems come from Hakan Kjellerstrand's website https://www.hakank.org/.
+mzn-problems is a collection of MiniZinc problems and a script to test aries solver. Most, if not all, the problems come from Hakan Kjellerstrand's website https://www.hakank.org/.
 
 Titouan Seraud - [titouan.seraud@laas.fr](mailto:titouan.seraud\@laas.fr) <!-- titouan.seraud@insa-toulouse.fr -->
 
@@ -10,6 +10,7 @@ Titouan Seraud - [titouan.seraud@laas.fr](mailto:titouan.seraud\@laas.fr) <!-- t
 - [Installation](#installation)
 - [Usage](#usage)
 - [Documentation](#documentation)
+- [Versioning](#versioning)
 - [Useful links](#useful-links)
 </details>
 
@@ -128,7 +129,15 @@ python mznb.py --help
 If you have any doubt about the way the script works, feel free to read the code. All functions and methods are documented.
 
 
+## Versioning
+Git tags are used to specify the dataset version. It is as easy as `v1`, `v2`, etc. Do not forget to add a new tag whenever you add, remove or update a problem.
+```
+git tag v3
+```
+
+
 ## Useful links
+ - [Hakank's MiniZinc page](https://www.hakank.org/minizinc/)
  - [MiniZinc documentation](https://docs.minizinc.dev/en/stable/index.html)
  - [MiniZinc playground](https://play.minizinc.dev/)
  - [Argparse documentation](https://docs.python.org/3/library/argparse.html)

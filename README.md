@@ -9,6 +9,7 @@ Titouan Seraud - [titouan.seraud@laas.fr](mailto:titouan.seraud\@laas.fr) <!-- t
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Reference](#reference)
 - [Documentation](#documentation)
 - [Versioning](#versioning)
 - [Useful links](#useful-links)
